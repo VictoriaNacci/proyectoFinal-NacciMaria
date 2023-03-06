@@ -328,3 +328,26 @@ h6 {
     display: flex;
     flex-direction: row;
     font-size: 14px; } }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  gap: 20px; }
+
+.calidad {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  overflow: hidden; }
+
+.img11, .img12 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; }
+
+h3 {
+  margin-top: 0; }
+
+.lorem {
+  text-align: justify; }
